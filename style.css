@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(270deg, brown 0%, khaki 80%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: rgb(93, 93, 119);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border-color: rgb(89, 187, 89);
+    margin-bottom: 30px;
+}
+
+img {
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+h1 {
+    color: mediumseagreen;
+    font-style: 80px;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
